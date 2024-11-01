@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "watch": ["src"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json,ts",
+  "exec": "tsc & cd ./build & node index.js"
+}
