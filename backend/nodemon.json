@@ -8,6 +8,6 @@
   "env": {
     "NODE_ENV": "development"
   },
-  "ext": "js,json,ts",
+  "ext": "js,json,ts,db",
   "exec": "tsc & cd ./build & node index.js"
 }

@@ -1,5 +1,5 @@
 import express from 'express';
-import { UrlRoutes } from '../../common/routes.js';
+import { UrlRoutes } from '../../common/routesTypes.js';
 
 const mock: {
   posts: Array<{
