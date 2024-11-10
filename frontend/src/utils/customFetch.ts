@@ -1,10 +1,10 @@
-export default async function customFetch(
-  input: `/${string}`,
+export default async function customFetch<T>(
+  url: string,
   init?: RequestInit
-) {
+): Promise<T> {
   try {
     const response = await fetch(
-      `${process.env.REACT_APP_BASE_URL_API}${input}`,
+      `${process.env.REACT_APP_BASE_URL_API}/api/${url}`,
       { ...init }
     );
     const json = await response.json();

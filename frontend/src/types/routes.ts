@@ -1,4 +1,4 @@
 export enum UrlRoutes {
-  'getAllPublicPosts' = '/allPublicPosts',
-  'register' = '/register',
+  'getAllPublicPosts' = 'allPublicPosts',
+  'register' = 'register',
 }
